@@ -1,0 +1,223 @@
+<html>
+<head>
+    <title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<body bgcolor="violet">
+   <p>
+    	<center>
+    	<ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline;  margin-right: 10px"><a href="./home.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">HOME</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./about.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">ABOUT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./contact us..html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">CONTACT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./service.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">SERVICES</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./form.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">FORM</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./table.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">TABLE</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./mybook.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">MYBOOK</a></li>
+    </ul></center>
+	</p><ul>
+    <h1>DATABASE AND JAVA WITH DESIGNING SKOL PRODUCT MANAGEMENT SYSTEM</h1>
+    <ol><h2><u><li>DATABASE</li></u></h2>
+        <p>Database name used: <b>designing a skol product management system </b></p>
+        <ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+            <ol><li><b>1.Commands Table</b></li>
+
+            <p>Command table database structure This is table is table that will Stores distributors' orders, including order details and associated metadata, facilitating efficient order
+            management and fulfillment processes.</p></br>
+
+            <li><b>2.Customers table</b></li>
+
+            <p>Customers Table database structure This table stores customer information, such as contact details and purchasing history,
+            enabling personalized interactions and targeted marketing strategies.</p> </br>
+
+
+            <li><b>3.DistributionStock table </b></li>
+
+            <p>DistributionStock table  database structure This table Stores  stock information for distributors, including product quantities and availability, ensuring accurate inventory management and replenishment.</p></br>
+
+            <li><b>4.DistributionSales table </b></li>
+
+            <p>DistributionSales table database structure This table stores  sales data for administrators, providing insights into distribution sales performance and revenue generation over time.  </p></br>
+
+            <li><b>5.Message table </b></li>
+
+            <p>Message table  database structure This table Stores user messages to administrators, serving as a feedback mechanism and enabling effective communication between users and system administrators.  </p></br>
+
+            <li><b>6.Notification table </b></li></ol>
+
+            <p>Notification table database structure This table Stores notifications from administrators to users, delivering important updates,announcements, and system-wide messages to all users. </p></br>
+
+
+            <li><b>7.Payment table </b></li></ol>
+
+            <p>Payment table database structure This table Stores all payment transactions, including payment methods, amounts, and timestamps, facilitating secure and transparent payment processing within the system. </p></br>
+
+
+             <li><b>8.Products table  </b></li></ol>
+
+            <p>Products table database structure This table Stores information about all available products, including product names,descriptions, prices, and categories, facilitating product catalog management and display. </p></br>  
+
+
+             <li><b>9.Sales table  </b></li></ol>
+
+            <p>Sales table database structure This table Stores data related to sales transactions, including sales orders, product quantities, prices, and timestamps, enabling accurate tracking of sales performance and revenue generation. </p></br>  
+
+
+             <li><b>10.Users table  </b></li></ol>
+
+            <p>Users table database structure This table Stores user profiles and authentication credentials, including usernames,passwords, roles, and permissions, ensuring secure access control and user management within the SPMS platform.      </p></br>  
+
+
+           <h3><u><i><li>Attributes</li></i></u></h3>
+           <b>Attributes of Commands Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in Commands table:</br> <p><b><i>distributer_id:</i></b> The column which represents  id of customer which is unique value called ID.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Product table.</br></p>
+    <p><b><i>distributer_names:</i></b> The columns which represents names of a distributor.</br></p> 
+
+    <p><b><i>distributer_id:</i></b> The column which represents the distributer's id.</br></p>
+    <p><b><i>date:</i></b> The column which represents the distributer's order.</br></p>
+    <p><b><i>product:</i></b> The column which represents the product ordered.</br></p>
+    <p><b><i>Amount:</i></b> The column which represents the amount paid.</br></p>
+    <p><b><i>Confirm_status:</i></b> The column which represents the distributer's status.</br></p>
+
+
+
+
+
+                    <b> Customers Table</b></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in Customers table:</br>
+
+
+<p><b><i>customer_id:</i></b> The column which represents  id of customer which is unique value called ID.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Product table.</br></p>
+
+<p><b><i>customer_Name:</i></b> The column which represents  the name of the customer.</p></br>
+<p><b><i>date:</i></b> The column which represents  the date of purchase.</p></br>
+<p><b><i>product:</i></b> The column which represents  the name of the customer.</p></br>
+<p><b><i>amount:</i></b> The column which represents  the amount paid.</p></br>
+<p><b><i>confirm_status:</i></b> The column which represents  the status of the customer.</p></br>
+
+
+
+
+
+
+                  <b>Attributes of DistributionStockTable</b></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in DistributionStock table:</br>
+
+
+
+<p><b><i>id:</i></b> The column which represents  id of  distributer which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Sensor table.</p></br>
+
+<p><b><i>product_name:</i></b> The column which represents  name of product which  is references to the product  table value called FOREIGN KEY.  It is a column of product table  which has relationship between Sensor table.</p></br>
+
+<p><b><i>Product_id:</i></b> The column which represents  the id of the product.</p></br>
+<p><b><i>Amount:</i></b> The column which represents  the amount of the product.</p></br>
+
+
+                    <b>Attributes of DistributionSales Table</b></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in DistributionSales table:</br>
+
+<p><b><i>Id:</i></b> The column which are represents  id of building which is unique value called PRIMARY KEY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of building table.</p></br>
+
+
+<p><b><i>client_name:</i></b> The column which are represents name of client which  is references to the id called FOREIGN KEY.  It is a column of product table  which has relationship between DistributionSales table.</p></br>
+
+<p><b><i>Product:</i></b> The column which represents  the name of the product.</p></br>
+<p><b><i>quantiny:</i></b> The column which represents  the quantiny of the product.</p></br>
+<p><b><i>Amount:</i></b> The column which represents  the amount of the product.</p></br>
+<p><b><i>date:</i></b> The column which represents  the date of the product.</p></br>
+
+                    <b>Attributes of message Table</b></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in message table:</br>
+
+
+<p><b><i>Id:</i></b> The column which are represents  id of  Customers  which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of message table.</p></br>
+
+
+<p><b><i>distributer_name:</i></b> The column which are represents  name of the distributer which  is references to the customer table value called FOREIGN KEY.  It is a column of customer table  which has relationship between message table.</p></br>
+
+<p><b><i>message:</i></b> The column which represents  the message from user to distributer.</p></br>
+<p><b><i>date:</i></b> The column which represents  the date of the message.</p></br>
+
+                    <b>Attributes of notification Table</b></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in notification table:</br>
+
+
+<ol type="i"><li><p><b><i>Id:</i></b> The column which represents  id of notification which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of notification table.</p></br></li>
+
+<li><p><b><i>distributer_name:</i></b> The column which are represents name of distributer which  is references to the Customers  table value called FOREIGN KEY.  It is a column of Customers table  which has relationship between notification table.</p></br></li>
+
+
+
+
+        </ul>
+        <h2><u><li>JAVA</li></u></h2>
+        
+        <ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+              <b>Introduction</b><br>
+ <p>In this chapter I will be describing how powerful generalpurpose programming language was used to create the analyzed system. Under this chapter I will undergo full detail of how everything will function together with database that have been describe above and how it cope with full analyzed system.</p><br>
+ 
+    <b>Tools used to develop this system in java programming</b><br>
+
+<p><b>Eclipse IDE:</b> an integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and was the most popular. </p><br>
+
+<p><b>JAR stands for Java Archive:</b>  It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components. </p><br>
+
+                          <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+
+<b><i>Demands FORM</i></b></br>
+<img src="demandsform.png" width=1000 height=300><br><br><br><br><br>
+
+<b><i>Customers FORM</i></b></br>
+<img src="customersform.png" width=1000 height=300><br><br><br><br><br>
+
+<b><i>DistributerStock FORM</i></b></br>
+<img src="distributerstockform.png" width=1000 height=300><br><br><br><br><br>
+
+<b><i>DistributerSales FORM</i></b></br>
+<img src="distributersalesform.png" width=1000 height=300><br><br><br><br><br>
+
+<b><i>Message FORM</i></b></br>
+<img src="messageform.png" width=1000 height=300><br><br><br><br><br>
+
+
+
+<b><i>Notification FORM</i></b></br>
+<img src="notificationform.png" width=1000 height=300><br><br><br><br><br>
+
+
+
+
+
+
+        </ul>
+        
+    </ol>
+    <marquee><u><i><h2 style="color: white;">Prepared By</i></u>: Divine KALIZA NTWALI</h2></marquee>
+    </body>
+    </html>
